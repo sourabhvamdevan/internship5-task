@@ -9,7 +9,6 @@ import { FaCalendarAlt, FaChartBar, FaCog, FaHome, FaMoon, FaPlus, FaSun } from 
 import TaskDetailsFb from "./components/TaskDetailsFb";
 import TaskDetailsX from "./components/TaskDetailsX";
 import TaskDetailsYoutube from "./components/TaskDetailsYoutube";
-import TaskDetailsTelegram from "./components/TaskDetailsTelegram";
 import TaskDetailsLinkedIn from "./components/TaskDetailsLinkedin";
 
 const App = () => {
@@ -48,7 +47,6 @@ const App = () => {
           <Route path='/facebook-task' element={<TaskDetailsFb />} />
           <Route path='/x-task' element={<TaskDetailsX />} />
           <Route path='/youtube-task' element={<TaskDetailsYoutube />} />
-          <Route path='/telegram-task' element={<TaskDetailsTelegram />} />
           <Route path='/linkedin-task' element={<TaskDetailsLinkedIn />} />
         </Routes>
       </main>
